@@ -45,7 +45,7 @@ A structured protocol that helps you:
 git clone <repo-url> ~/Nika
 ```
 
-Then follow `SETUP.md` to register the bot workspace with Clawdbot.
+Then follow `SETUP.md` to register the bot workspace with Clawdbot and pick a bot name.
 
 ### Claude Code (Skill)
 ```
@@ -58,8 +58,14 @@ git clone <repo-url> ~/.claude/skills/nika
 ```
 Nika/
 ├── AGENTS.md
+├── HEARTBEAT.md
+├── IDENTITY.md
 ├── MEMORY.md
 ├── README.md
+├── SETUP.md
+├── SOUL.md
+├── TOOLS.md
+├── USER.md
 ├── LICENSE
 ├── SKILL.md
 ├── memory/

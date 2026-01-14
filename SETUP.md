@@ -12,7 +12,11 @@ git clone https://github.com/YOUR_USERNAME/Nika.git
 cd Nika
 ```
 
-**2. Ask your Clawdbot to set it up:**
+**2. Choose a bot name (optional):**
+Default is `Nika`. If you want a different name, use it in place of `Nika` below. Also choose a short
+account id for bindings (shown as `BOT_ACCOUNT_ID`, examples: `protocol`, `nika`, `coach`).
+
+**3. Ask your Clawdbot to set it up:**
 > "Set up a new agent called 'Nika' using the workspace at ~/Nika"
 
 Clawdbot will:
@@ -21,7 +25,7 @@ Clawdbot will:
 - Add bindings for the new bot
 - Restart the gateway
 
-**That's it.** Your Nika is ready.
+**That's it.** Your bot is ready.
 
 After running the protocol, set up daily reminders (see below).
 
@@ -43,8 +47,8 @@ If you prefer to configure manually, follow these steps.
 
 1. Open Telegram, find **@BotFather**
 2. Send `/newbot`
-3. Choose name: `Transformation Protocol Bot`
-4. Choose username: e.g., `transformation_protocol_bot`
+3. Choose name: `Nika` (or your custom name)
+4. Choose username: e.g., `bot_name_protocol`
 5. **Save the API token** (looks like `1234567890:ABCdef...`)
 
 ---
@@ -119,7 +123,7 @@ Edit `~/.clawdbot/clawdbot.json`:
     "telegram": {
       "accounts": {
         // ... existing accounts ...
-        "protocol": {
+        "BOT_ACCOUNT_ID": {
           "botToken": "YOUR_BOT_TOKEN_FROM_BOTFATHER"
         }
       }
@@ -137,7 +141,7 @@ Edit `~/.clawdbot/clawdbot.json`:
       "agentId": "nika",
       "match": {
         "channel": "telegram",
-        "accountId": "protocol"
+        "accountId": "BOT_ACCOUNT_ID"
       }
     }
   ]
@@ -223,14 +227,14 @@ clawdbot cron add --name "Evening Review" --cron "0 21 * * *" --tz "YOUR_TIMEZON
       "agentId": "nika",
       "match": {
         "channel": "telegram",
-        "accountId": "protocol"
+        "accountId": "BOT_ACCOUNT_ID"
       }
     }
   ],
   "channels": {
     "telegram": {
       "accounts": {
-        "protocol": {
+        "BOT_ACCOUNT_ID": {
           "botToken": "YOUR_BOT_TOKEN"
         }
       }
