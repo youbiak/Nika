@@ -1,4 +1,5 @@
-# Transformation Protocol
+# Transformation Protocol (Inspired by Dan Koe)
+<img width="1468" height="958" alt="CleanShot 2026-01-14 at 17 28 34@2x" src="https://github.com/user-attachments/assets/4df9c0e7-13b7-4b25-a153-cd9ce7c7c2cb" />
 
 A comprehensive 1-day protocol for identity transformation and behavior change.
 
