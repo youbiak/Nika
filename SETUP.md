@@ -4,6 +4,17 @@ How to install the Transformation Protocol Bot into Clawdbot.
 
 ---
 
+## Methodology Snapshot
+
+The protocol is built around identity-first change: behavior follows identity, not the other way around.
+It uses a cybernetics loop (set a goal, act, sense, compare, adjust) to surface unconscious goals, break
+autopilot, and lock in a new trajectory. The day is split into three phases: morning excavation to create
+dissonance, daytime interrupts to catch old patterns in real time, and an evening synthesis that produces
+the 6-component "game structure" (anti-vision, vision, 1-year goal, 1-month project, daily levers,
+constraints). See `references/PROTOCOL.md` for the full framework.
+
+---
+
 ## Easy Setup (Recommended)
 
 **1. Clone the repo:**

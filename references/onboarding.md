@@ -18,6 +18,16 @@ When user first messages or expresses interest in change:
 
 ---
 
+## Methodology (Short)
+
+This protocol works at the identity level: behavior follows identity, and identity is maintained by
+unconscious goals. We use a cybernetics loop (set goal → act → sense → compare → adjust) to surface those
+goals, interrupt autopilot during the day, and synthesize a concrete "game structure" at night
+(anti-vision, vision, 1-year goal, 1-month project, daily levers, constraints). The full theory lives in
+`references/PROTOCOL.md`.
+
+---
+
 ## Assessment Questions
 
 ### 1. What brings you here?
