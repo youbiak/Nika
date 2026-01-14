@@ -13,7 +13,7 @@ cd Nika
 ```
 
 **2. Ask your Clawdbot to set it up:**
-> "Set up a new agent called 'Nika' using the workspace at ~/Nika/clawdbot"
+> "Set up a new agent called 'Nika' using the workspace at ~/Nika"
 
 Clawdbot will:
 - Create the Telegram bot (guides you through @BotFather)
@@ -55,8 +55,8 @@ If you prefer to configure manually, follow these steps.
 # Create workspace directory
 mkdir -p ~/clawd-nika
 
-# Copy all files from this clawdbot/ folder
-cp -r /path/to/Nika/clawdbot/* ~/clawd-nika/
+# Copy all files from this repo
+cp -r /path/to/Nika/* ~/clawd-nika/
 ```
 
 Your workspace should look like:

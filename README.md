@@ -45,7 +45,7 @@ A structured protocol that helps you:
 git clone <repo-url> ~/Nika
 ```
 
-Then follow `clawdbot/SETUP.md` to register the bot workspace with Clawdbot.
+Then follow `SETUP.md` to register the bot workspace with Clawdbot.
 
 ### Claude Code (Skill)
 ```
@@ -73,8 +73,6 @@ Nika/
 │   ├── evening.md
 │   ├── check-ins.md
 │   └── game-template.md
-├── clawdbot/                 # Self-contained Clawdbot adapter
-│   └── ...
 └── guides/                   # (optional future)
 ```
 
