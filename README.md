@@ -1,5 +1,5 @@
 # Transformation Protocol (Inspired by Dan Koe)
-<img width="1468" height="958" alt="CleanShot 2026-01-14 at 17 28 34@2x" src="https://github.com/user-attachments/assets/4df9c0e7-13b7-4b25-a153-cd9ce7c7c2cb" />
+<img width="1472" height="968" alt="CleanShot 2026-01-14 at 18 10 00@2x" src="https://github.com/user-attachments/assets/129aade8-b3a5-4b5c-bd4e-0824e0348ca3" />
 <p align="center"><a href="https://x.com/thedankoe/status/2010751592346030461">https://x.com/thedankoe/status/2010751592346030461</a></p>
 
 A comprehensive 1-day protocol for identity transformation and behavior change.
